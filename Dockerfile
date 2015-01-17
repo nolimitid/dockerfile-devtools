@@ -44,7 +44,7 @@ VOLUME ["/data/db"]
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 # Define default command.
-CMD ["bash", "mongod &"]
+CMD ["bash", "mongod"]
 
 # Expose ports.
 #   - 27017: process
