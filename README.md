@@ -20,4 +20,4 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 ### Usage
 
-    docker run -it --rm dockerfile/ubuntu
+    docker run -d -p 27017:27017 --name devtools nolimitid/devtools
