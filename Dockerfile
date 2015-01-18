@@ -33,8 +33,6 @@ RUN \
   apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 && \
   echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' > /etc/apt/sources.list.d/mongodb.list && \
   wget http://downloads.sourceforge.net/project/xampp/XAMPP%20Linux/5.6.3/xampp-linux-x64-5.6.3-0-installer.run\
-  chmod +x xampp-linux-x64-5.6.3-0-installer.run\
-  ./xampp-linux-x64-5.6.3-0-installer.run\
   apt-get update && \
   apt-get install -y mongodb-org && \
   apt-get install -y openjdk-7-jdk && \
