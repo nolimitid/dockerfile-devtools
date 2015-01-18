@@ -20,4 +20,4 @@ This repository contains **Dockerfile** of `NoLimit Indonesia Development Tools`
 
 ### Usage
 
-    docker run -d -p 27017:27017 --name devtools nolimitid/devtools
+    docker run -d -p 27017:27017 -p 3306:3306 --name devtools nolimitid/devtools
